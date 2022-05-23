@@ -1,0 +1,55 @@
+@media (max-width: 575px) {
+
+    #banner .banner .banner-text {
+        padding-top: 0% !important;
+    }
+
+    #product .product .product-text {
+        padding-top: 20% !important;
+    }
+
+    #product .product .pv1 {
+        position: static !important;
+    }
+
+    #pay .pay {
+        padding-top: 0px !important;
+    }
+
+    #price .price .price-text {
+        padding-top: 20% !important;
+    }
+
+    #price .price .price-text h2{
+        padding: 30px 0 !important;
+    }
+
+    #support .support .support-text {
+        padding-top: 0% !important;
+    }
+
+    #support .support .support-text h2{
+        padding: 40px 0 !important;
+    }
+
+    #what .what .what-text h3 {
+        padding: 40px 0 !important;
+    }
+
+    #form .form .form-te {
+        padding-top: 0% !important;
+    }
+
+    #form .form .form-te h3{
+        padding: 40px 0 !important;
+    }
+
+    footer .footer-text h2{
+        padding: 30px 0;
+    }
+
+    footer .footer-text h3{
+        padding-bottom: 30px;
+    }
+
+}

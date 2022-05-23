@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+:root{
+    --mf : 'Comfortaa', cursive;
+    --brand : #f8d303; 
+}
+
+/*
+root css ends
+*/
+
+.c-reg{
+    font-family: var(--mf);
+    font-weight: 400;
+}
+
+.c-bold{
+    font-family: var(--mf);
+    font-weight: 700;
+}
+
+/*
+font familly css ends
+*/
+
+.fs-11{
+    font-size: 11px;
+}
+
+.fs-13{
+    font-size: 13px;
+}
+
+.fs-15{
+    font-size: 15px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-39{
+    font-size: 39px;
+}
+
+.fs-56{
+    font-size: 56px;
+}
+
+/*
+font size css ends
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+li{
+    list-style: none;
+}
+
+/*
+common css ends
+*/
+
+nav{
+    z-index: 9999;
+}
+
+/*
+navbar css ends
+*/
+
+#banner .banner{
+    background-color: var(--brand);
+    padding-top: 150px;
+}
+
+#banner .banner .bv1{
+    transform: translateY(-150px);
+    -webkit-transform: translateY(-150px);
+    -moz-transform: translateY(-150px);
+    -ms-transform: translateY(-150px);
+    -o-transform: translateY(-150px);
+}
+
+#banner .banner .banner-text{
+    padding-top: 30%;
+}
+
+#banner .banner .bv3{
+    transform: translate(190px,-400px);
+    -webkit-transform: translate(190px,-400px);
+    -moz-transform: translate(190px,-400px);
+    -ms-transform: translate(190px,-400px);
+    -o-transform: translate(190px,-400px);
+}
+
+/*
+banner css ends
+*/
+
+#about .about{
+    background-color: var(--brand);
+    padding-top: 100px;
+}
+
+#about .about .about-text{
+    padding-top: 40%;
+}
+
+/*
+about css ends
+*/
+
+#product .product{
+    background-color: var(--brand);
+    padding: 100px 0;
+}
+
+#product .product .pv1{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+#product .product .product-text{
+    padding-top: 45%;
+}
+
+/*
+product css ends
+*/
+
+#pay .pay{
+    background-color: var(--brand);
+    padding-top: 100px;
+}
+
+#pay .pay .pay-text{
+    padding-top: 40%;
+}
+
+#pay .pay .pay-text h2{
+    padding: 30px 0;
+}
+
+/*
+pay css ends
+*/
+
+#price .price{
+    background-color: var(--brand);
+    padding-bottom: 100px;
+}
+
+#price .price .price-text{
+    padding-top: 70%;
+}
+
+#price .price .price-text h1{
+    padding-top: 50px;
+}
+
+#price .price .price-text button{
+    margin-bottom: 60px;
+}
+
+/*
+price css ends
+*/
+
+#support .support{
+    background-color: var(--brand);
+    padding-bottom: 100px;
+}
+
+#support .support .sv1{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+#support .support .support-text{
+    padding-top: 50%;
+}
+
+/*
+support css ends
+*/
+
+#what .what{
+    background-color: var(--brand);
+}
+
+#what .what .what-text{
+    padding-top: 40%;
+}
+
+#what .what .what-text h2{
+    padding: 5% 0;
+}
+
+#what .what .what-text h3{
+    padding-top: 10%;
+}
+
+/*
+what css ends
+*/
+
+#form .form{
+    background-color: var(--brand);
+    padding: 100px 0;
+}
+
+#form .form .form-te{
+    padding-top: 20%;
+}
+
+/*
+form css ends
+*/
+
+footer{
+    background-color: var(--brand);
+    padding: 30px 0;
+}
+
+footer .footer{
+    background-color: #000;
+    padding: 20px 0;
+    margin: 30px;
+}
